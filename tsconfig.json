@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "importHelpers": false,
+    "listFiles": false,
+    "noImplicitAny": true,
+    "noEmitHelpers": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "paths": {
+      "@app/*": ["src/app/*"]
+    }
+  },
+  "exclude": ["dist", "node_modules"]
+}
